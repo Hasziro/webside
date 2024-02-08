@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Open+Sans&family=Raleway&display=swap');
+
+*{
+    box-sizing:border-box ;
+    font-family: 'Raleway', sans-serif;
+color: #777;
+margin: 0;
+padding: 0;
+}
+html, body{ 
+    background-image: url(../images);
+    
+    margin: 0;
+    padding: 0;
+    
+   
+}
+
+ .nav ul{
+     margin: 0;
+ }
+ .nav li{
+     display: inline;
+ }
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.main-nav li {
+    padding: 0 5%;
+}
+.nav a:hover{
+    background-color:rgba(255, 255, 255, .3)
+}
+.main-header
+{
+    background-image: url("../images/Header Background.jpg");
+    background-size: cover;
+background-color:rgba(0, 0, 0, .6);
+background-blend-mode:multiply;
+padding-bottom: 30px;
+ 
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Qwigley', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+.band-name-large{
+font-size: 3em;
+}
+
+
+.conteiner{
+    max-width: 900px;
+    margin: 0 auto;
+    padding:  0 1.5em;
+}
+.about-band{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+    
+}
+    
+.ab{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.8em;
+    
+}
+.p-ab{
+    padding: 1.5em;
+    margin-bottom: 1.9em;
+}
+
+
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+.btn-header
+{
+   margin: .5em 10% .5em 10%;
+    color: white;
+    border: 2px solid #2d9cdb;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius:0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right:2em ;    
+}
+
+
+.btn-center{
+    text-align: center;
+}
+
+
+.btn-header:hover
+{background-color: rgba(255, 255, 255, 0.3);
+}
+.btn-play{
+    margin: 0 auto;
+    display: block;
+    color: #2d9cdb;
+    font-size: 2em;
+    border-radius: 50%;
+    padding: 0;
+    width: 80px;
+    height: 80px;
+
+}
+/* test */
+.tour-row {
+    
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    width: 11%;
+    font-weight: bold;
+    padding-left: .5rem;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+/* test */
+.btn-primary{
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn-primary:hover{background-color: #2d9cdb;}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 ;}
+    
+    .shop-item{
+        margin: 30px;
+    }
+.shop-item-title{
+   display: block;
+   width: 100%;
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.5em;
+   color: #333;
+   margin-bottom: 15px;
+}
+    .shop-item-img{
+        height: 250px;
+    
+    }
+    .shop-item-details{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    .shop-item-price{
+        flex-grow: 1;
+        color: #333;
+    }
+    .shop-items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .shop-item-button{
+        min-width: 8em;
+        
+    }
+    .cart-header{
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #333;
+    }
+    .cart-column{
+        
+        border-bottom:1px solid black ;
+        margin-right:1.5em ;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        
+    }
+    .btn-card{background: red;
+        
+    }
+    .cart-row{
+display: flex;
+    }
+
+    .cart-item{
+width: 45%;
+    }
+    .cart-quanity{
+width: 20%;
+    }
+    .cart-price{
+width: 35%;
+    }
+.btn-danger {
+ color: white;
+ background-color: #EB5757;
+ border: none;
+ border-radius: .3em;
+ font-weight: bold;}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+        }
+
+  .cart-price {
+      width: 20%;
+      font-size: 1.2em;
+      color: #333;
+  }
+  
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.cart-item {
+    width: 45%;
+}
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+/*! testowanie */
+.baner{
+  display:block;
+    background: url(../images/logo.png) center center no-repeat;
+    margin:0 auto; 
+margin-top: .5em;
+   height:1em;
+    line-height: 200px;
+    max-width: 10em;
+    background-size: contain;
+    -webkit-transition: background .3s ease-in-out;
+    -transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    text-align:center;
+
+}
+/* Stopka */
+footer{
+    position: absolute; 
+    width: 100%;
+    height: 18vh ;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+   
+
+}
+footer::before 
+{
+
+    content: '';
+position: absolute;
+width: 100%;
+height: 50%;
+bottom: 0;
+z-index: 1;
+backdrop-filter: blur(5px);
+border-top: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+
+footer .color
+{
+    position: absolute; 
+    filter: blur(1.25em);
+    
+}
+footer .color:nth-child(1)
+{
+    background: #3b5998;
+    height: 5em;
+    width: 5em;
+    margin-right: 12.5em;
+
+}
+
+footer .color:nth-child(2) 
+{
+    background: #81b71a ;
+    height: 5em;
+    width: 5em;
+   margin-left: 12.5em;
+}
+footer .color:nth-child(3) 
+{
+    background: #c4302b;
+    height: 5em;
+    width: 5em;
+}
+ .sm{
+    position: relative;
+    display: flex; 
+    z-index:2;
+}
+.ikony{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+}
+ .ikony {
+    position: relative;
+    width: 80px;
+    height:80px ;
+    display: inline-block;
+    display: flex;
+    border-radius:10px ;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border:1px solid rgba(255, 255, 255, 0.4) ;
+    border-right:1px solid rgba(255, 255, 255, 0.2) ;
+    border-bottom:1px solid rgba(255, 255, 255, 0.2) ;
+    box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1) ;
+    font-size: 2.5em;
+    backdrop-filter: blur(2px);
+    overflow: hidden;
+}
+
+
+.ikony:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+}
+.ikony::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transform:skewX(45deg) translateX(150px) ;
+    transition: 0.8s;
+}
+.ikony:hover::before{
+    transform: skew(45deg) translateX(-150px);
+}
+.section-header {
+   text-align: center;
+   color: #333;
+   font-size: 2rem;
+}
+section .conteiner {
+    line-height: 1.6;
+}
+section  .p-ab{
+    line-height: 1.8;
+}
+
+
+
+
+
+ /* media queries*/
+ @media (max-width:620px){
+     /* test */
+.tour-row {
+    
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+   
+    font-weight: bold;
+    padding-left: .5rem;
+    font-size: .8rem;
+}
+
+.mobile-city {
+  font-size: 0.7rem;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.mobile-arena {
+    font-size: 0.7rem;
+    text-align: center;
+    
+    
+}
+
+.mobile-btn{
+  position: absolute;
+  right: 0.6rem;  
+  min-width: 5.6rem;}
